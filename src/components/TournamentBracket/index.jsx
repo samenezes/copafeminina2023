@@ -10,7 +10,7 @@ import WinnerComponent from '../WinnerComponent'
 function TournamentBracket({ fase }) {
 
     const [ jogos, setJogos ] = useState([])
-    const url = `https://raw.githubusercontent.com/edsonmaia/apifakecopa2023/main/${fase}-copa-2023.json`
+    const url = `https://raw.githubusercontent.com/samenezes/apifakecopa2023/main/${fase}-copa-2023.json`
 
     useEffect(() => {
         const buscarJogos = async () => {

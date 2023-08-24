@@ -5,7 +5,7 @@ import styles from './Fixture.module.css'
 function Fixture({ fase, data }) {
 
     const [ jogos, setJogos ] = useState([])
-    const url = `https://raw.githubusercontent.com/edsonmaia/apifakecopa2023/main/${fase}-copa-2023.json`
+    const url = `https://raw.githubusercontent.com/samenezes/apifakecopa2023/main/${fase}-copa-2023.json`
 
     useEffect(() => {
         const buscarJogos = async () => {

@@ -8,7 +8,7 @@ function GroupStandings() {
 
     useEffect(() => {
         const buscarGrupos = async () => {
-            const response = await fetch('https://raw.githubusercontent.com/edsonmaia/apifakecopa2023/main/classificacao-por-grupos-2023.json')
+            const response = await fetch('https://raw.githubusercontent.com/samenezes/apifakecopa2023/main/classificacao-por-grupos-2023.json')
             const data = await response.json()
             setGrupos(data)
         }
